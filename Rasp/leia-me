@@ -1,0 +1,13 @@
+Ip local:
+10.235.10.41
+
+Ip real:
+143.107.235.41
+
+
+Comandos importantes:
+
+sudo /etc/init.d/lirc start
+sudo killall lircd
+sudo lircd -d /dev/lirc0
+/usr/bin/irsend SEND_ONCE LG AC_OFF
